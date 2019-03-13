@@ -1,0 +1,188 @@
+
+.page {
+display: inline-block;
+width: 1000px;
+height: 6000px;
+margin: auto;
+padding: 20px;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+vertical-align: baseline;
+border: 2px solid #0098cf;
+}
+
+h2 {
+  color: #0098cf;
+}
+
+.sectionphoto {
+  display: inline-flex;
+  float: left;
+  width: 500px;
+  height: 150px;
+  border: 2px solid #0098cf;
+}
+
+.infos {
+  display: inline-flex;
+  float: right;
+  width: 250px;
+  height: 150px;
+  border: 5px solid #0098cf;
+  padding-left: 5px;
+  background-color: #0098cf;
+  margin-right: auto;
+  color: white;
+
+}
+
+.profil {
+  display: flex;
+  margin-top: 200px;
+  width: 750px;
+  padding: 10px;
+
+}
+
+.profil h2 {
+  position: absolute;
+  top: 190px;
+  color: #0098cf;
+  }
+
+.diplomes {
+display: inline-block;
+float: left;
+height: auto;
+margin-bottom: 50px;
+}
+
+
+.dates-gauche {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 260px;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: #0098cf 5px solid;
+}
+
+.infos-droite {
+  display: inline-block;
+  float: left;
+  height: 260px;
+  width: 600px;
+  text-align: center;
+  ;
+
+}
+
+.experiencepro {
+  display: inline-block;
+  height: auto;
+  width: 750px;
+
+}
+
+.dates-gauche2 {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 824px;
+  font-weight: bold;
+  font-size: 18px;
+
+
+}
+
+.infos-droite2 {
+  display: inline-block;
+  float: left;
+  width: 595px;
+  height: 824px;
+  text-align: left;
+  border-left: #0098cf 5px solid;
+  margin-bottom: auto;
+  text-align: center;
+
+}
+
+.centres_interets {
+  display: block;
+  float: left;
+  margin-top: auto;
+  margin-right: auto;
+  width: 750px;
+  border-top: #0098cf 5px solid;
+}
+
+.competences {
+  display: inline-flex;
+  float: left;
+  width: 750px;
+  margin: auto;
+  border-top: #0098cf 5px solid;
+
+}
+
+.aside {
+  position: absolute;
+  top: 420px;
+  display: inline-flex;
+  vertical-align: top;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+  border: 2px solid #0098cf;
+
+}
+
+.atouts {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 260px;
+}
+
+ .informatique {
+   display: inline-block;
+   vertical-align: top;
+   width: 250px;
+   height: 320px;
+   background-color: #0098cf;
+
+ }
+ .informatique h2 {
+   color: white;
+ }
+
+ .voyages {
+   display: inline-block;
+   width: 250px;
+   height: 360px;
+ }
+
+ .langues {
+   display: inline-block;
+   width: 250px;
+   height: 260px;
+   background-color: #0098cf;
+
+}
+
+.langues h2 {
+  color: white;
+}
+
+.titre {
+  font-weight: bold;
+}
+
+#expro p {
+  margin-bottom: 35px;
+}
+#expro2 p {
+  margin-bottom: 130px;
+}

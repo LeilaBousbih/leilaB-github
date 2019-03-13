@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Projets</title>
+</head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top top-nav">
+  	<div class="container">
+  		  <a class="navbar-brand" href="#"><strong>Leïla Bousbih</strong></a>
+  		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  		    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+  		  </button>
+
+  		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  		    <ul class="navbar-nav ml-auto">
+  		      <li class="nav-item active">
+  		        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+  		      </li>
+  		      <li class="nav-item">
+  		        <a class="nav-link" href="projets.html">Projets</a>
+  		      </li>
+  		      <li class="nav-item">
+  		        <a class="nav-link" href="contact.html">Contact</a>
+  		      </li>
+          </ul>
+     </div>
+  </div>
+  </nav>
+  </header>
+
+  <base href="img_portfolio">
+<div id="carousel">
+  <figure id="spinner">
+    <img src="img_portfolio/cv alternance final.png" alt>
+    <img src="img_portfolio/InventionsNum.png" alt>
+    <img src="img_portfolio/msg.png" alt>
+    <img src="paradise.jpg" alt>
+    <img src="morekai.jpg" alt>
+    <img src="milky-blue-lagoon.jpg" alt>
+    <img src="lake-tekapo.jpg" alt>
+    <img src="milford-sound.jpg" alt>
+  </figure>
+</div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+
+
+
+<script>var angle = 0;
+function galleryspin(sign) {
+spinner = document.querySelector("#spinner");
+if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
+spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
+}</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<footer class="footer-distributed">
+
+      <div class="footer-right">
+
+
+        <a href=leila20493@gmail.com><i class="fa fa-google"></i></a>
+        <a href="https://www.linkedin.com/in/leïla-b-4aa452162"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/LeilaBousbih"><i class="fa fa-github"></i></a>
+
+      </div>
+
+      <div class="footer-left">
+
+        <p class="footer-links">
+          <a href="#">Accueil</a>
+          ·
+          <a href="#">Projets</a>
+          ·
+          <a href="#">Contact</a>
+
+        </p>
+
+        <p>Leila Bousbih &copy; 2019</p>
+      </div>
+
+    </footer>
+  </body>
+  </html>
